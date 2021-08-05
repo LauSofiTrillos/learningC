@@ -3,7 +3,8 @@
         int main() {
              
              int a = 4, b = 8, result;
-// && (and)             
+             
+                 // && (and)             
                  result = (a == 4 && b == 8);
                  printf("%d\n", result);
 //1
@@ -11,7 +12,7 @@
                  printf("%d\n", result);             
 //0     
 
-// || (or)
+                 // || (or)
                  result = (a == 4 || b != 8);
                  printf("%d\n", result);
 //1
@@ -19,7 +20,7 @@
                  printf("%d\n", result);             
 //0
 
-// ! (not)
+                 // ! (not)
                  printf("%d\n", !(a == 4));  
 //0
                  printf("%d\n", !(a != 4));  
