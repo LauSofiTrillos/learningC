@@ -3,19 +3,23 @@
         int main() {
              
              int a = 4, b = 8, result;
-             
+// && (and)             
                  result = (a == 4 && b == 8);
                  printf("%d\n", result);
 //1
                  result = (a == 4 && b != 8);
                  printf("%d\n", result);             
 //0     
+
+// || (or)
                  result = (a == 4 || b != 8);
                  printf("%d\n", result);
 //1
                  result = (a != 4 || b != 8);
                  printf("%d\n", result);             
-//0         
+//0
+
+// ! (not)
                  printf("%d\n", !(a == 4));  
 //0
                  printf("%d\n", !(a != 4));  
