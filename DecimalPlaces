@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+   int main(){
+   
+       double num1 = 12.648;
+       float num2 = 13.88;
+             printf("num1 = %.2lf\n", num1)
+//12.65
+             printf("num2 = %.3f\n", num2)
+//13.880
+
+return 0;
+}
