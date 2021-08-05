@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+
+     int intType;
+     long int longType;
+     float floatType;
+     double doubleType;
+     char charType;
+     
+          printf("int: %zu \n", sizeof(intType));
+// int: 4
+          printf("long: %zu \n", sizeof(longType));
+// long: 8
+          printf("float: %zu \n", sizeof(floatType));
+// float: 4
+          printf("double: %zu \n", sizeof(intType));
+// double: 8
+          printf("char: %zu \n", sizeof(charType));
+// char: 1
+
+return 0;
+}
