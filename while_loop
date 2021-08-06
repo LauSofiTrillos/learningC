@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+   int main(){
+   
+       int i = 1;
+       
+       while(i <= 3){
+       
+       printf("%d. Nice Day\n", i);
+       i++;
+       
+       }
+/*
+   1. Nice Day 
+   2. Nice Day
+   3. Nice Day 
+*/
+   
+   return 0;
+   }
