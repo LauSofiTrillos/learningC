@@ -15,6 +15,16 @@
    2. Nice Day
    3. Nice Day 
 */
+       for(i = 1; i <= 3; ++i){
+       
+       printf("%d. Nice Day\n", i);
+       
+       }
+ /*
+   1. Nice Day 
+   2. Nice Day
+   3. Nice Day 
+*/
    
    return 0;
    }
