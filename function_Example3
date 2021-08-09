@@ -1,0 +1,17 @@
+#include  <stdio.h>
+
+   int addNumbers(int n1, int n2){
+   int suma;
+   suma = n1 + n2;
+   //return int value 
+   return suma;
+   }
+   
+   int main(){
+      int a = 4, b = 8, result;
+      result = addNumbers(a,b);
+      printf("sum = %d", result);
+      //12
+      
+      return 0;
+   }
