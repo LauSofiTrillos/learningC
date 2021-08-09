@@ -11,3 +11,4 @@
   
     return 0;
 }
+//C programs always start from the main() function 
