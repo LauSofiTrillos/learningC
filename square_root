@@ -1,0 +1,13 @@
+//to use sqrt()
+#include <math.h>
+//to use printf()
+#include <stdio.h>
+
+    int main(){
+    
+       double number = 20.0, result;
+       result = sqrt(number);
+       printf("la raiz cuadrada de %.2lf es %.2lf", number, result);
+       
+       return 0;
+    }
