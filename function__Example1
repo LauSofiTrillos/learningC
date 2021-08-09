@@ -1,0 +1,13 @@
+#include <stdio.h>
+//Function Definition
+  void greet(){
+    printf("Hola\n");
+    printf("Como estas?")
+  }
+  
+  int main(){
+//Calling the Function   
+    greet();
+  
+    return 0;
+}
