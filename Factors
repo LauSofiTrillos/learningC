@@ -1,0 +1,13 @@
+#include <stdio.h>
+//Factors of a Number
+   int main(){
+       int number = 75;
+       printf("Factors of %d: ", number);
+       
+       for(int i = 1; i <= number; ++i){
+          if(number % i == 0){
+            printf("%d", i);
+          }
+       }
+    return 0;
+   }
