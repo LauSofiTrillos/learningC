@@ -6,6 +6,7 @@
     int main(){
     
        double number = 20.0, result;
+       //finds the square root of number
        result = sqrt(number);
        printf("la raiz cuadrada de %.2lf es %.2lf", number, result);
        
