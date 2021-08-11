@@ -1,0 +1,15 @@
+//Print all array elements 
+#include <stdio.h>
+   int main(){
+      int data[] = {12, 19, 13, 12, 17};
+          for(int i = 0; i < 5; i++){
+             printf("Index %d element: %d\n", i, data[i]);
+          }
+      // index 0 element 12
+      // index 1 element 19
+      // index 2 element 13
+      // index 3 element 12
+      // index 4 element 17
+      
+      return 0;
+   }
