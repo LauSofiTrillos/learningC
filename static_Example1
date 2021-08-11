@@ -1,0 +1,13 @@
+#include <stdio.h>
+void number(int n){
+     static in num = 7;
+     printf("num + n = %d\n", (num + n));
+     num = num + 2;
+     }
+     int main() {
+         number(5);
+         //num + n = 12
+         number(5);
+         //num + n = 14
+         return 0;
+     }
