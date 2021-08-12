@@ -1,0 +1,16 @@
+//Finds de sum of all the values stored in an array
+#include <stdio.h>
+double suma(double array[]){
+ double add = 0.0;
+  for(int i = 0; i < 4; i++){
+   add += array[i]; 
+ }
+ return add;
+}
+int main(){
+ double result, array[] = {23.4, 55.1, 22.6, 3.0};
+ result = suma(array);
+  printf("result = %.2lf", result);
+   
+ return 0;
+}
