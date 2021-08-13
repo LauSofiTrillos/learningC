@@ -1,0 +1,8 @@
+#include <stdio.h>
+  int main(){
+      int *pc, c;
+      c = 5;
+      //assign address to a pointer
+      pc = &c;
+  return 0;
+  }
