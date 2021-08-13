@@ -1,0 +1,9 @@
+#include <stdio.h>
+  int main(){
+     int *pc, c = 5;
+     //pc contains address of c
+     pc = &c;
+     printf("Value stored in pc address = %d", *pc);
+     // 5
+  return 0;
+  }
