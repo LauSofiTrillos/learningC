@@ -1,0 +1,19 @@
+#include <stdio.h>
+  int main(){
+  
+    int x[4] = {10,20,30,40};
+    
+    //print second element
+    printf("2nd element: %d\n", *(x + 1)); //20
+    
+    //replace third element
+    *(x + 2) = 100;
+    printf("3rd element: %d\n", x[2]); //100
+    
+    //replace fourth element 
+    printf("4th element: ");
+    scanf("%d", x + 3);
+    printf("4th element: %d\n", x[3]);
+  
+  return 0;
+ }
