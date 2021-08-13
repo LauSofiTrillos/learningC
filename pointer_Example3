@@ -1,0 +1,20 @@
+#include <stdio.h>
+  int main(){
+   int *pc, c = 4;
+   printf("c address: %p\n", &c);
+   // 0x7fff63896f6c
+   printf("c value: %d\n", c);
+   // 4
+   pc = &c;
+   printf("pc address: %p\n", pc);
+   // 0x7fff63896f6c
+   printf("pc content: %d\n", *pc);
+   // 4
+   c = 5;
+   printf("pc content: %d\n", *pc);
+   // 5
+   *pc = 7;
+   printf("c value: %d\n", c);
+   // 7
+   return 0;
+  }
