@@ -1,0 +1,9 @@
+//Determine size of array in bytes
+#include <stdio.h>
+  int main(){
+   int data[5], length;
+   //To determine the number of elements in the array 
+   length = sizeof(data)/sizeof(data[0]); // (20/4)
+   printf("Number of elements in the array: %d", length); // 5
+  return 0;
+  }
