@@ -1,0 +1,24 @@
+//Program to reallocate the previously allocated memory
+//realloc() example
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int *ptr, i, n;
+    
+    //allocate memory
+    ptr = (int *)malloc(2 * sizeof(int));
+    printf("Before: ");
+    for(int i=0; i<2; ++i)
+     printf("%p,", ptr + i);
+     
+    //reallocate memory
+    ptr = realloc(ptr, 3 * sizeof(int));
+    printf("Current: ");
+    for(int i=0; i<3; ++i)
+     printf("%p,", ptr + i);
+     
+    //freeing memory 
+    free(ptr);
+    return 0;
+}
