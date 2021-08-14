@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+int n, *marks;
+printf("Number of Students: ");
+scanf("%d", n);
+
+//allocate memory for n number of int 
+marks = (int *)malloc(n * sizeof(int));
+
+if(marks == NULL){
+printf("ERROR!");
+return 0;
+}
+
+printf("Enter Elements: ");
+for(int i = 0; i < n; ++i){
+//using the pointer to store values at the allocated memory
+scanf("%d", marks + i);
+}
+
+//deallocating the memory
+free(marks);
+return 0;
+}
