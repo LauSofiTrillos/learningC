@@ -1,8 +1,10 @@
 //Una Constante almacena un valor que no puede ser cambiado, una vez asignado
 #include <stdio.h>
   int main(){
+  
    const double PI = 3.14;
    printf("%f", PI);
    
    return 0;
   }
+//El valor de PI no puede ser cambiado durante la ejecucion del programa, gerara ERROR
