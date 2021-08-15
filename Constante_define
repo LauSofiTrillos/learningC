@@ -1,0 +1,15 @@
+//Se puede definir una constante utilizando #define
+//las constantes deben ser inicializadas con un valor cuando son declaradas
+
+#include <stdio.h>
+#define PI 3.14
+#define sofiDice printf
+
+  int main(){
+   sofiDice("%f", PI);
+   sofiDice("\nHola");
+   
+   return 0;
+  }
+  
+  
