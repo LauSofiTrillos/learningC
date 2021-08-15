@@ -1,0 +1,7 @@
+//Ejemplo de getchar() para recibir como entrada un caracter 
+#include <stdio.h>
+int main(){
+ char a = getchar();
+ printf("You entered: %c", a);
+return 0;
+}
