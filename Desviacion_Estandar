@@ -17,7 +17,7 @@ double calculateSD(double data[], int length){
 int main(){
   double data[5] = {3, 9, 45, 22, 23}, result;
   int length;
-  length = (int)sizeof(data)/sizeof(data[0]));
+  length = (int)sizeof(data)/sizeof(data[0]);
   result = calculateSD(data, length);
   printf("Standard Deviation = %.2lf", result);
   return 0;
