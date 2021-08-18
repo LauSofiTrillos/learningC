@@ -13,3 +13,4 @@ int main(){
   
   return 0;
 }
+// el resultado de concatenar se guarda en str1
