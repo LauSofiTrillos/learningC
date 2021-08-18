@@ -1,6 +1,10 @@
 // strcmp() compara dos strings
+// si las Strings son iguales retorna 0
+// si las Strings son diferentes retorna un valor no cero 
 #include <stdio.h>
 #include <string.h>
+int main(){
+
   char str1[] = "a,b,c,d", str2[] = "cdEA";
   int result;
   
@@ -8,5 +12,10 @@
   printf("Result = %d\n", result);
   
   if(result == 0){
-   printf(st)
+   printf("strings are equal");
+  }
+  else {
+   printf("not equal");
+  }
+  return 0;
   }
