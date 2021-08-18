@@ -6,8 +6,8 @@ int main(){
   char str1[20] = "Program";
   char str2[20] = {'P','r','o','g','r','a','m','\0'};
   // se utiliza el especificador de formato %zu para imprimir la medida del String
-  printf("Length of str1 = %zu\n", strlen(a));
-  printf("Length of str2 = %zu\n", strlen(b));
+  printf("Length of str1 = %zu\n", strlen(str1));
+  printf("Length of str2 = %zu\n", strlen(str2));
   
   return 0;
 }
