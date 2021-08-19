@@ -1,0 +1,19 @@
+// ESTRUCTURA
+// inicializar las variables de una estructura 
+#include <stdio.h>
+struct Person {
+  char name[50];
+  int age;
+};
+int main(){
+// inicializar ambos miembros de persona1
+ struct Person person1 = {.name = "Sofi", .age = 15};
+// inicializar solo el nombre de persona2
+ struct Person person2 = {.name = "Laura"};
+ 
+ printf("person1 name: %s\n", person1.name);
+ printf("person1 age: %d\n", person1.age);
+ printf("person1 name: %s\n", person2.name);
+ 
+ return 0;
+}
