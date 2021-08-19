@@ -1,3 +1,5 @@
+//ESTRUCTURA 
+//acceder miembros de la estructura
 #include <stdio.h>
 struct Person {
  char name[50];
