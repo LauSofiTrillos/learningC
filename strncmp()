@@ -1,0 +1,16 @@
+// ejemplo implementacion strncmp()
+// compara 2 Strings 
+// strncmp(string1, string2, numero_de_caracteres_a_comparar)
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+char * name = "Sofia";
+
+if (strncmp(name, "Sofi", 4) == 0) {
+    printf("Hello, Sofia!\n");
+} else {
+    printf("You are not Sofi. Bye.\n");
+}
+return 0;
+}
