@@ -1,0 +1,26 @@
+// ARRAY OF STRUCTURES(AOS)
+// ejempolo estructura con arreglo 
+
+#include <stdio.h>
+ struct Employee {
+   int age;
+   double salary;
+ } employees[3];
+ 
+ int main(){
+  for (int i = 0; i < 3; ++i){
+   printf("Employe[%d]:", i + 1);
+   printf("\nage:");
+   scanf("%d",&employees[i].age);
+   printf("\nsalary:");
+   scanf("%lf",&employees[i].salary);
+  }
+  for(int i = 0; i < 3; ++i){
+   printf("Employee%d:\n", i + 1);
+   printf("age:%d\n", employees[i].age);
+   printf("salary:%.2lf\n", employees[i].salary);
+  }
+  return 0;
+ }
+ 
+ 
