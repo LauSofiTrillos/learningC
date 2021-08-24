@@ -1,0 +1,23 @@
+// ESTRUCTURA 
+// Ejemplo de como manipular estructura con puntero 
+#include <stdio.h>
+
+typedef struct{
+    int x;
+    int y;
+}point;
+
+void move(point *p){
+  p->x++;
+  p->y++;
+    }
+
+int main(){
+  point p = {1, 2};
+  printf("x:%d\ny:%d\n", p.x, p.y);
+  move(&p);
+  printf("\nx:%d\ny:%d\n", p.x, p.y);
+  move(&p);
+  printf("\nx:%d\ny:%d\n", p.x, p.y);
+  return 0;
+  }
