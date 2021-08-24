@@ -1,0 +1,22 @@
+// ESTRUCTURA
+// ejemplo utilizar malloc() para una estructura 
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+  int x;
+  int y;
+} point;
+
+int main() {
+  point *newpoint;
+
+  newpoint = (point *)malloc(sizeof(point));
+
+  newpoint->x = 7;
+  newpoint->y = 4;
+  printf("point:(%d,%d)\n", newpoint->x, newpoint->y);
+
+  free(newpoint);
+  return 0;
+}
