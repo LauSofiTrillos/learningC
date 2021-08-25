@@ -1,0 +1,24 @@
+// FILES 
+// ejemplo de fscanf() para leer la primera 
+// linea de un archivo 
+// fscanf(file_pointer, format_specifier, variable)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+FILE *fptr;
+char data[1000];
+fptr = fopen("program.txt","r");
+
+if(fptr == NULL){
+printf("ERROR");
+exit(1);
+}
+
+fscanf(fptr, "%[^\n]", data);
+puts(data); //print data
+
+fclose(fptr);
+return 0;
+}
