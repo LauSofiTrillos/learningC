@@ -1,0 +1,22 @@
+// FILE 
+// ejemplo de abrir un archivo con permisos de estritura 
+// utlizando fopen()
+#include <stdio.h>
+#include <stdlib.h> // usada para exit()
+int main(){
+FILE *fptr;
+
+// abrir archivo en modo escritura 
+fptr = fopen("program.txt", "w");
+
+if(fptr == NULL){
+ printf("Error!");
+ exit(1);
+}
+
+fprintf(fptr, "Files are cool");
+
+fclose(fptr);
+
+return 0;
+}
